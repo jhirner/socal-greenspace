@@ -1,0 +1,10 @@
+LA County Census Tract Shapefile
+https://redistricting.lacounty.gov/mapping-files-data-download/
+
+2020 CA census tracts
+https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html
+
+
+Census data
+2020 American Comunnity Survey 5-year estimates
+https://www.census.gov/programs-surveys/acs/news/data-releases/2020/release-schedule.html
