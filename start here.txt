@@ -1,1 +1,0 @@
-https:⁄⁄www.earthdatascience.org⁄courses⁄use-data-open-source-python⁄multispectral-remote-sensing⁄modis-data-in-python⁄
