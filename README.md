@@ -1,7 +1,7 @@
 # socal-greenspace
  An analysis of access to green space in Southern California at the census tract level.
 
-![Map of census tracts in Los Angeles and Orange Counties, color-coded by vegetation index.](https://github.com/jhirner/socal-greenspace/blob/95d5d0f2399121c3afa27c6fedb71566eb991f92/images/map.png "Vegetation Index in LA and Orange Counties by Census Tract")
+![Map of census tracts in Los Angeles and Orange Counties, color-coded by vegetation index.](https://github.com/jhirner/socal-greenspace/blob/95d5d0f2399121c3afa27c6fedb71566eb991f92/images/map.png "Vegetation Index in LA and Orange Counties")
 
 ## Motivation & Purpose
 This project focuses on access to green space in Los Angeles and Orange counties in Southern California. To what extent is neighborhood access to parks, gardens, and other green space linked to socioeconomic factors.
