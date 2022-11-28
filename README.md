@@ -1,7 +1,7 @@
 # socal-greenspace
  An analysis of access to green space in Southern California at the census tract level.
 
-![Map of census tracts in Los Angeles and Orange Counties, color-coded by vegetation index.](https://github.com/jhirner/socal-greenspace/blob/95d5d0f2399121c3afa27c6fedb71566eb991f92/images/map.png "Vegetation Index in LA and Orange Counties by Census Tract")
+![Map of census tracts in Los Angeles and Orange Counties, color-coded by vegetation index.](https://github.com/jhirner/socal-greenspace/blob/95d5d0f2399121c3afa27c6fedb71566eb991f92/images/map.png "Vegetation Index in LA and Orange Counties")
 
 ## Motivation & Purpose
 This project focuses on access to green space in Los Angeles and Orange counties in Southern California. To what extent is neighborhood access to parks, gardens, and other green space linked to socioeconomic factors.
@@ -18,9 +18,9 @@ This repository contains:
 
 * A series of Jupyter notebooks in which the data is wrangled, cleaned, and analyzed:
 
-    * Socioeconomic and demographic data were obtained at the census tract level from the US Census Bureau's [2020 American Community Survery five-year estimates](https://www.census.gov/programs-surveys/acs/news/data-releases/2020/release-schedule.html). Basic data wrangling & cleaning are shown in `1-census-data-cleaning.ipynb`.
+    * Socioeconomic and demographic data were obtained at the census tract level from the US Census Bureau's [2020 American Community Survey five-year estimates](https://www.census.gov/programs-surveys/acs/news/data-releases/2020/release-schedule.html). Basic data wrangling & cleaning are shown in `1-census-data-cleaning.ipynb`.
 
-    * Satellite imagery data ([MODIS/Aqua 16-day averged images, 250 meter resolution](https://lpdaac.usgs.gov/products/myd13q1v061/)) were used to determine amount of vegetation in 250 m<sup>2</sup> pixels in the two counties. Vegetation was quantified as the Normalized Difference Vegetation Index, or *NDVI*. Using [geographic boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html) provided by the Census Bureau, an average vegetation index was calculated for each census tract.(See `2-tract-vegetation.ipynb`).
+    * Satellite imagery data ([MODIS/Aqua 16-day averaged images, 250 meter resolution](https://lpdaac.usgs.gov/products/myd13q1v061/)) were used to determine amount of vegetation in 250 m<sup>2</sup> pixels in the two counties. Vegetation was quantified as the Normalized Difference Vegetation Index, or *NDVI*. Using [geographic boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.2020.html) provided by the Census Bureau, an average vegetation index was calculated for each census tract.(See `2-tract-vegetation.ipynb`).
 
     * Potential correlations are explored, quantified, and plotted in `3-join-and-visualize.ipynb`. Principal component analysis & additional visualization are shown in `4-dimensionality-reduction.ipynb`.
 
